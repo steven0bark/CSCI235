@@ -1,0 +1,31 @@
+/**
+ *This class creates an operates the ATM
+ */
+
+public class atm{
+
+    private int balance;
+    
+    public atm(){
+	balance = 0;
+	
+    }
+    
+    public void addTwenty(int a){
+	balance = balance + (a*20);
+    }
+    
+    public void addFives(int a){
+	balance = balance + (a*5);
+    }
+
+    public void withdrawl(int a){
+	balance = balance - a;
+    }
+    
+    public int getBalance(){
+	return balance;
+    }
+    
+
+}
